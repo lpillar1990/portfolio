@@ -1,8 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
+import scrollTo from 'gatsby-plugin-smoothscroll'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
+import logo2 from '../assets/images/logo2.png'
 
 const HomeIndex = () => {
   const siteTitle = 'Leo Pillar | Portfolio'
@@ -121,6 +122,11 @@ const HomeIndex = () => {
             </div>
           </div>
         </section>
+
+        <button className="lp_logo" onClick={() => scrollTo('#one')}>
+          {' '}
+          <img src={logo2} alt="logo2" width="110px" />
+        </button>
       </div>
     </Layout>
   )
