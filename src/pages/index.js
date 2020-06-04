@@ -57,8 +57,8 @@ const HomeIndex = () => {
           <h2>Get In Touch</h2>
           <p>
             If you have a project that you want to get started, think you need
-            my help <br />
-            with something or just fancy saying hey, then get in touch.
+            my help with something or just <br />
+            fancy saying hey, then get in touch.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">

@@ -69,10 +69,10 @@ input,
 select,
 textarea {
   color: _palette(fg);
-  font-family: _font(family);
+  font-family: monospace;
   font-size: 16pt;
   font-weight: _font(weight);
-  line-height: 1.75em;
+  line-height: 1.8em;
 }
 
 a {
