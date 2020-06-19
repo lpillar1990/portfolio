@@ -714,6 +714,7 @@ ul {
   &.labeled-icons {
     list-style: none;
     padding: 0;
+    color: black;
 
     li {
       line-height: 1.75em;
@@ -839,8 +840,8 @@ input[type='button'],
   background-color: transparent;
   border-radius: _size(border-radius);
   border: solid 3px (border);
-  color: lightgrey;
-  cursor: pointer;
+  color: black;
+  cursor: grabbing;
   display: inline-block;
   font-weight: _font(weight-bold);
   height: 3.15em;
@@ -853,8 +854,8 @@ input[type='button'],
   white-space: nowrap;
 
   &:hover {
-    border-color: lightgrey;
-    color: white;
+    border-color: black;
+    color: #49bf9d;
   }
 
   &:active {
@@ -986,7 +987,10 @@ input[type='button'],
 
   .image.avatar {
     margin: 0 0 (_size(element-margin) * 0.5) 0;
-    width: 6.25em;
+    width: 8.25em;
+  }
+  .image.logo {
+    padding-bottom: 50px;
   }
 }
 
@@ -1036,11 +1040,10 @@ input[type='button'],
   padding: ($size-header-pad * 2) $size-header-pad $size-header-pad
     $size-header-pad;
   width: calc(100% - #{$size-header-width});
-  background-color: rgb(116, 111, 111);
-  box-shadow: 550px 1px 13px 10px rgb(116, 111, 111);
+  background-color: white;
 
   p {
-    color: lightgrey;
+    color: black;
   }
   h1,
   h2,
@@ -1048,7 +1051,7 @@ input[type='button'],
   h4,
   h5,
   h6 {
-    color: lightgrey;
+    color: black;
   }
 
   > section {

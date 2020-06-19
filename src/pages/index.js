@@ -15,7 +15,6 @@ const HomeIndex = () => {
         <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
       </Helmet>
-
       <div id="main">
         <section id="one">
           <header className="major">
@@ -58,12 +57,11 @@ const HomeIndex = () => {
           <h2>Get In Touch</h2>
           <p>
             If you have a project that you want to get started, think you need
-            my help with something or just <br />
-            fancy saying hey, then get in touch.
+            my help with something or just fancy saying hey, then get in touch.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
+              <form name="contact" method="POST" action="#" data-netlify="true">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
