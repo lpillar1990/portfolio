@@ -1,12 +1,14 @@
 import React from 'react'
-import Helmet from 'react-helmet'
 import Layout from '../components/layout'
+import { Link } from 'gatsby'
 
 const NotFoundPage = () => (
   <Layout>
     <div id="main">
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <h1>NOT SENT</h1>
+      <p>Your message did not send, please try again in a few minutes.</p>
+      <p>Thank you.</p>
+      <Link to="/">Back</Link>
     </div>
   </Layout>
 )

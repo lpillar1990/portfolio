@@ -25,10 +25,10 @@ const HomeIndex = () => {
           </header>
           <p>
             My name is Leo, I am a Front-End Developer from Bangor, Northern
-            Ireland. My professional path has taken many twists and turns - from
-            being a Commercial Diver to co-owning a small Diving business. It
-            has led me back to being a Front-end Developer once again, and
-            loving every minute of it.
+            Ireland. My professional path has taken a few changes over the years
+            - from doing 3 years doing I.C.T in college, to the last 10 years
+            being a Commercial Diver. It has led me back to being a Front-end
+            Developer once again, and loving every minute of it.
           </p>
           {/* <ul className="actions">
             <li>
@@ -61,7 +61,7 @@ const HomeIndex = () => {
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form name="contact" action="POST" data-netlify="true">
+              <form name="contact" method="POST" data-netlify="true">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
