@@ -23,13 +23,6 @@ export const DEFAULT_IMAGES = [
     description: 'Commercial Diving Services',
   },
   {
-    id: '3',
-    source: full03,
-    thumbnail: thumb03,
-    caption: 'Lets Go Hydro',
-    description: 'Aqua, Glamping, Watersports & Activity Resort',
-  },
-  {
     id: '4',
     source: full04,
     thumbnail: thumb04,
